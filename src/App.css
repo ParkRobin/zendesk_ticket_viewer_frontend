@@ -1,0 +1,16 @@
+.app-header {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.app-block {
+    height: 80px;
+    padding: 5px;
+}
+
+.app-page {
+    float: right;
+    margin: 20px; 
+}

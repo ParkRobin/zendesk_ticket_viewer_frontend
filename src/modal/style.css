@@ -1,0 +1,11 @@
+.tic-modal {
+    width: 750px !important;
+}
+
+.ant-modal-body {
+    height: 600px !important;
+}
+
+.ant-modal-footer {
+    display: none !important;
+}
