@@ -1,17 +1,36 @@
-### 初始化项目 `npm install`
+# Zendesk Ticket Viewer Frontend
 
+## 1. Overview
 
-### 启动项目 `npm start`
-在浏览器中打开 [http://localhost:3000](http://localhost:3000)
+Zendesk is a customer service tool that allows the creation and management of support tickets. Your company needs you to build a Ticket Viewer that will: 
 
+1. Connect to the Zendesk API
+2. Request all the tickets for your account
+3. Display them in a list
+4. Display individual ticket details
+5. Page through tickets when more than 25 are returned
 
-<!-- ###　`npm run build` -->
+## 2. Installation
 
-目录结构src中：
-主入口文件index.js, 其中引入App.js, 整体界面在App.js中编写
-其中包括：遍历接口返回的数据对应的画出每一个card组件, 弹窗组件, 以及分页组件
+```sh
+npm install
+```
 
-mock.js文件是构建的假数据结构
+## 3. Run
 
-card文件夹内为一个单独的card组件内容。
-modal文件夹内是每次打开的详情弹窗, 需要根据每次的id获取对应详情内容
+```sh
+npm start
+```
+
+## 4. Access
+
+```
+http://localhost:3000
+```
+
+## 5. Deployment on Heroku
+
+```
+https://zendesk-ticket-viewer-frontend.herokuapp.com/
+```
+
